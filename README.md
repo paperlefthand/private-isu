@@ -94,10 +94,6 @@ $ /home/isucon/private_isu/benchmarker/bin/benchmarker -u /home/isucon/private_i
 | arm64  | ami-034a457f6af55d65d | catatsuy_private_isu_bench_arm64_20240602 | c7g.xlarge             |
 
 
-### 手元で動かす
-
-__いずれの手順もディスク容量が十分にあるマシン上で行うこと__
-
 * アプリケーションは各言語の開発環境とMySQL・memcachedがインストールされていれば動くはず
 * ベンチマーカーはGoの開発環境とuserdataがあれば動く
 * Dockerとvagrantはメモリが潤沢なマシンで実行すること
